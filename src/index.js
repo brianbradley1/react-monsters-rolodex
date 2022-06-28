@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // strict mode enforces we arent using any depreciated methods
+  // also double renders everything to catch any weird behaviours
   <React.StrictMode>
     <App />
   </React.StrictMode>
